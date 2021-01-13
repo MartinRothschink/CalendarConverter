@@ -29,27 +29,27 @@ namespace CalendarConverter
       /// </summary>
       private void InitializeComponent()
       {
-         this.radButton1 = new Telerik.WinControls.UI.RadButton();
+         this.BtnLoad = new Telerik.WinControls.UI.RadButton();
          this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
          this.listBox1 = new System.Windows.Forms.ListBox();
          this.panel1 = new System.Windows.Forms.Panel();
-         this.radButton2 = new Telerik.WinControls.UI.RadButton();
+         this.BtnSave = new Telerik.WinControls.UI.RadButton();
          this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-         ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
+         ((System.ComponentModel.ISupportInitialize)(this.BtnLoad)).BeginInit();
          this.panel1.SuspendLayout();
-         ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
+         ((System.ComponentModel.ISupportInitialize)(this.BtnSave)).BeginInit();
          ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
          this.SuspendLayout();
          // 
-         // radButton1
+         // BtnLoad
          // 
-         this.radButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-         this.radButton1.Location = new System.Drawing.Point(12, 12);
-         this.radButton1.Name = "radButton1";
-         this.radButton1.Size = new System.Drawing.Size(110, 24);
-         this.radButton1.TabIndex = 0;
-         this.radButton1.Text = "Load Word docx";
-         this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
+         this.BtnLoad.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+         this.BtnLoad.Location = new System.Drawing.Point(12, 12);
+         this.BtnLoad.Name = "BtnLoad";
+         this.BtnLoad.Size = new System.Drawing.Size(110, 24);
+         this.BtnLoad.TabIndex = 0;
+         this.BtnLoad.Text = "Load Word docx";
+         this.BtnLoad.Click += new System.EventHandler(this.radButton1_Click);
          // 
          // openFileDialog1
          // 
@@ -69,23 +69,23 @@ namespace CalendarConverter
          // 
          // panel1
          // 
-         this.panel1.Controls.Add(this.radButton2);
-         this.panel1.Controls.Add(this.radButton1);
+         this.panel1.Controls.Add(this.BtnSave);
+         this.panel1.Controls.Add(this.BtnLoad);
          this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
          this.panel1.Location = new System.Drawing.Point(0, 0);
          this.panel1.Name = "panel1";
          this.panel1.Size = new System.Drawing.Size(734, 54);
          this.panel1.TabIndex = 2;
          // 
-         // radButton2
+         // BtnSave
          // 
-         this.radButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-         this.radButton2.Location = new System.Drawing.Point(128, 12);
-         this.radButton2.Name = "radButton2";
-         this.radButton2.Size = new System.Drawing.Size(110, 24);
-         this.radButton2.TabIndex = 1;
-         this.radButton2.Text = "Save CSV";
-         this.radButton2.Click += new System.EventHandler(this.radButton2_Click);
+         this.BtnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+         this.BtnSave.Location = new System.Drawing.Point(128, 12);
+         this.BtnSave.Name = "BtnSave";
+         this.BtnSave.Size = new System.Drawing.Size(110, 24);
+         this.BtnSave.TabIndex = 1;
+         this.BtnSave.Text = "Save CSV";
+         this.BtnSave.Click += new System.EventHandler(this.BtnSaveClick);
          // 
          // RadForm1
          // 
@@ -101,9 +101,9 @@ namespace CalendarConverter
          // 
          this.RootElement.ApplyShapeToControl = true;
          this.Text = "Calendar Converter";
-         ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
+         ((System.ComponentModel.ISupportInitialize)(this.BtnLoad)).EndInit();
          this.panel1.ResumeLayout(false);
-         ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
+         ((System.ComponentModel.ISupportInitialize)(this.BtnSave)).EndInit();
          ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
          this.ResumeLayout(false);
 
@@ -111,11 +111,11 @@ namespace CalendarConverter
 
       #endregion
 
-      private Telerik.WinControls.UI.RadButton radButton1;
+      private Telerik.WinControls.UI.RadButton BtnLoad;
       private System.Windows.Forms.OpenFileDialog openFileDialog1;
       private System.Windows.Forms.ListBox listBox1;
       private System.Windows.Forms.Panel panel1;
-      private Telerik.WinControls.UI.RadButton radButton2;
+      private Telerik.WinControls.UI.RadButton BtnSave;
       private System.Windows.Forms.SaveFileDialog saveFileDialog1;
    }
 }

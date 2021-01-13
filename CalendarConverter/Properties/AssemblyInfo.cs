@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("CalendarConverter")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Converts Gemeide aktuell schedules to csv file")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("keine")]
+[assembly: AssemblyCompany("AxoNet Software GmbH")]
 [assembly: AssemblyProduct("CalendarConverter")]
-[assembly: AssemblyCopyright("Copyright © keine 2021")]
+[assembly: AssemblyCopyright("Copyright © AxoNet Software GmbH 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
